@@ -33,6 +33,10 @@ main {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+.wrapper2 {
+    height: 50vh;
+    width: 35vw;
+}
 .header__highlighted {
     color:hsl(277, 64%, 61%);
 }
@@ -69,12 +73,10 @@ main {
     padding-top: 5px;
 }
 .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35vw;
-    height: 380px;
+    height: 100%;
     background-image: url("/images/image-header-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
